@@ -9,3 +9,4 @@ pytest-randomly
 hypothesis
 dpcontracts
 
+jupyter
