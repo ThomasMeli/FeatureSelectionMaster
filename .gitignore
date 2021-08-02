@@ -6,6 +6,40 @@ __pycache__/
 # C extensions
 *.so
 
+# Pycharm
+
+#Tracking
+*.idea
+*.trial*
+*checkpoint
+*checkpoint.data*
+checkpoint.index
+pipeline
+trial.json
+variables*
+
+# Project
+*.csv
+*.joblib
+*.pkl
+*log.txt
+*.sqlite3
+.coverage
+
+src/models/tpot/*
+src/models/tpot
+
+research
+research/*
+data/raw
+data/csv_converts
+data/csv_converts/*
+data/*.csv
+data/.parquet
+data/*/
+wandb
+src/models/*
+
 # Distribution / packaging
 .Python
 build/
@@ -41,7 +75,6 @@ pip-delete-this-directory.txt
 htmlcov/
 .tox/
 .nox/
-.coverage
 .coverage.*
 .cache
 nosetests.xml
