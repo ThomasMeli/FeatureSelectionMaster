@@ -1,3 +1,6 @@
+import numpy as np
+import pandas as pd
+from sklearn.feature_selection import VarianceThreshold
 
 
 class StatManager:
@@ -54,7 +57,7 @@ class StatManager:
     def get_correlation_feature_pairs(self):
         pass
 
-    def compare_thresholded_data_with_models:
+    def compare_thresholded_data_with_models(self):
         """
         Runs one model on data with and without threshold
         to see which performs better and by how much.
