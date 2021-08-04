@@ -9,4 +9,5 @@ pytest-randomly
 hypothesis
 dpcontracts
 
+sphinx
 jupyter
